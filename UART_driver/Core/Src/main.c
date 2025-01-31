@@ -41,7 +41,9 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-uint8_t buffer[1] = {'a'}; //01000001 for 65
+uint8_t buffer[1] = {'s'}; //01000001 for 65
+uint8_t RX_buffer[1] = {'a'}; // null character until received
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -74,6 +76,7 @@ int main(void)
 	GPIOA -> AFR[0] |= (7 << GPIO_AFRL_AFSEL2_Pos); //AF7 for TX
 	//Pin PA3 Setup,RX
 	GPIOA -> MODER &= ~(GPIO_MODER_MODER3); //Clear PA3, already 00 for input mode
+	GPIOA -> MODER |= (2 << GPIO_MODER_MODE3_Pos); // 10 for Alternate Function mode
 	GPIOA -> AFR[0] |= (7 << GPIO_AFRL_AFSEL3_Pos); //AF7 mode for RX
 
 	//Setting up UART
@@ -89,7 +92,20 @@ int main(void)
 	USART2 -> CR1 |= USART_CR1_RE;
 	//Enable UART
 	USART2 -> CR1 |= USART_CR1_UE;
-  /* USER CODE END 1 */
+
+	/*
+	 * 	while (!(USART2->ISR & USART_ISR_TXE)) {}
+	USART2 -> TDR = buffer[0];
+	while (!(USART2->ISR & USART_ISR_TC)) {}
+
+	while (!(USART2->ISR & USART_ISR_TXE)) {}
+	USART2 -> TDR = RX_buffer[0];
+	while (!(USART2->ISR & USART_ISR_TC)) {}
+	 *
+	 *
+	 */
+
+	  /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
 
@@ -114,15 +130,22 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  USART2->TDR = 'h';
   while (1)
   {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+	  while (!(USART2 -> ISR & USART_ISR_RXNE));
+
+	  RX_buffer[0] = USART2 -> RDR;
+
 	  while (!(USART2->ISR & USART_ISR_TXE)) {}
-	  USART2 -> TDR = buffer[0];
+	  USART2 -> TDR = RX_buffer[0];
 	  while (!(USART2->ISR & USART_ISR_TC)) {}
-	  HAL_Delay(1000);
+
+	  HAL_Delay(100);
+
   }
   /* USER CODE END 3 */
 }
