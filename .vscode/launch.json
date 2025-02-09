@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Cortex Debug",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/I2C_VL53L0X/build/I2C_VL53L0X.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+
+            //User Config Setting
+            "servertype": "openocd",
+            "device": "STM32F411",
+            "gdbPath": "/usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gdb",
+
+            //Config Files
+            "svdFile": "${workspaceFolder}/I2C_VL53L0X/mcu_support/f4xx/STM32F411.svd", // ARM Keil STM32 Family Pack
+            "configFiles": [ 
+                //Openocd Github
+                "${workspaceFolder}/I2C_VL53L0X/mcu_support/openocd/stlink.cfg",
+                "${workspaceFolder}/I2C_VL53L0X/mcu_support/f4xx/stm32f4x.cfg"
+            ]
+        }
+    ]
+}

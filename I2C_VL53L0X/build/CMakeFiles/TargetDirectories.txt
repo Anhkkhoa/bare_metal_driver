@@ -1,0 +1,5 @@
+/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles/I2C_VL53L0X.dir
+/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles/edit_cache.dir
+/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles/rebuild_cache.dir
+/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
