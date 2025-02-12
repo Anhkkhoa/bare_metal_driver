@@ -72,6 +72,7 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
+  const define LOX_ADDRESS = Ob0101001; //7 bit address
 
   /* USER CODE END 1 */
 
@@ -96,10 +97,14 @@ int main(void)
   BlinkyPeripheral();
   I2CPeripheral();
   /* USER CODE BEGIN 2 */
-  
-  
-  //Read from Register (bring this to function)
- 
+  uint8_t vardebug1;
+  vardebug1 = I2CReadRegister(0xC0, LOX_ADDRESS);
+
+  if (vardebug1 == 0xEE)
+  {
+    GPIOA-> BSRR = (1 << 1);
+  }
+
   /* USER CODE END 2 */
 
   /* Infinite loop */

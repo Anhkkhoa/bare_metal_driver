@@ -10,17 +10,18 @@ void I2CPeripheral(void)
 
     //GPIOB Config
     GPIOB->MODER |= (2 << 14) | (2 << 16); //GPIO Mode - Alternate Function, 10 which clear previous bit, i can just asign 1 to necessary bit but not a good practice
-    GPIOB->AFR[0] |= (1 << 30); //Alternate Function mode - AF4, rather AFRL or AFRH, use [0][1]
-    GPIOB->AFR[1] |= (1 << 2); 
+    GPIOB->AFR[0] |= (4 << 28); //Alternate Function mode - AF4, rather AFRL or AFRH, use [0][1]
+    GPIOB->AFR[1] |= (4 << 0); 
     GPIOB->OTYPER |= (1 << 7) | (1 << 8); //Output Type - Open-drain
     GPIOB->OSPEEDR |= (3 << 14) | (3 << 16); //Output Speed Register - High Speed
     
 
     //I2C Config 
+    I2C1->CR1 &= ~I2C_CR1_PE; //Disable I2C for config
     I2C1->CR1 = I2C_CR1_SWRST;
     I2C1->CR1 &= ~I2C_CR1_SWRST; //Reset then turn off reset I2C software
 
-    I2C1->CR1 &= ~I2C_CR1_PE; //Disable I2C for config
+    
 
     //I2C1->CCR |= (0 << 15); //Standard Mode Spd (If clock run match)
     I2C1->CCR = 0x50; //T_High and T_Low are equal so be 5us, and then with the previous peripheral clock is 16MHz => T_PCLK1 is 62.5ns, 5us/62.5ns = 80
@@ -62,7 +63,7 @@ uint8_t I2CRead(uint8_t ack)
     return I2C1->DR;
 }
 
-uint8_t I2CWriteRegister(uint8_t reg, uint8_t value, uint8_t address)
+void I2CWriteRegister(uint8_t reg, uint8_t value, uint8_t address)
 {
     //Write to Register (required what register you sending too and the data)
     I2CStart();
@@ -73,7 +74,7 @@ uint8_t I2CWriteRegister(uint8_t reg, uint8_t value, uint8_t address)
 
 }
 
-void I2CReadRegister(uint8_t reg, uint8_t address) 
+uint8_t I2CReadRegister(uint8_t reg, uint8_t address) 
 {
     uint8_t rxdata;
     I2CStart();
@@ -81,7 +82,7 @@ void I2CReadRegister(uint8_t reg, uint8_t address)
     I2CWrite(reg);
     I2CStart();
     I2CWrite((address<< 1)| 1);
-    rxdata = I2CRead(1); //NACK sending data to signify completed sending the data
+    rxdata = I2CRead(0); //NACK sending data to signify completed sending the data
     I2CStop();
     return rxdata;
 }
