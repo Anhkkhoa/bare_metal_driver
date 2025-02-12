@@ -7,4 +7,9 @@ void BlinkyPeripheral(void)
 
     //GPIO Mode Register (No need to clear for now, but should be in the future for register)
     GPIOA-> MODER |= (1 << 2); //Enable 01 of MODER1 for output mode
+
+    /*
+    PB7 - I2C1_SDA
+    PB8 - I2C1_SCL
+    */
 }

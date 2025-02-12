@@ -32,6 +32,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/blinky.c" "CMakeFiles/I2C_VL53L0X.dir/Core/Src/blinky.c.obj" "gcc" "CMakeFiles/I2C_VL53L0X.dir/Core/Src/blinky.c.obj.d"
+  "/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/i2c.c" "CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.obj" "gcc" "CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.obj.d"
   "/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/main.c" "CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj.d"
   "/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/stm32f4xx_hal_msp.c" "CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_hal_msp.c.obj" "gcc" "CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_hal_msp.c.obj.d"
   "/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/stm32f4xx_it.c" "CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_it.c.obj" "gcc" "CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_it.c.obj.d"

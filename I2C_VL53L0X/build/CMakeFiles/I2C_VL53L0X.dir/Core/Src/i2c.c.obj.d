@@ -1,10 +1,5 @@
-CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj: \
- /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/main.c \
- /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Inc/main.h \
- /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
- /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Inc/stm32f4xx_hal_conf.h \
- /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
- /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.obj: \
+ /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/i2c.c \
  /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
  /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h \
  /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx/../../Drivers/CMSIS/Include/core_cm4.h \
@@ -20,6 +15,10 @@ CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj: \
  /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx/../../Drivers/CMSIS/Include/cmsis_gcc.h \
  /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx/../../Drivers/CMSIS/Include/mpu_armv7.h \
  /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+ /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+ /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Inc/stm32f4xx_hal_conf.h \
+ /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+ /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
  /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
  /usr/share/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
  /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
@@ -33,6 +32,4 @@ CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj: \
  /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
  /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
  /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
- /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
- /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Inc/blinky.h \
- /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Inc/i2c.h
+ /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h

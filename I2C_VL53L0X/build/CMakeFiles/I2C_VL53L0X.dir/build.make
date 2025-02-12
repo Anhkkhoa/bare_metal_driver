@@ -69,24 +69,10 @@ include CMakeFiles/I2C_VL53L0X.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/I2C_VL53L0X.dir/flags.make
 
-CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
-CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/main.c
-CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/main.c
-
-CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/main.c > CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.i
-
-CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/main.c -o CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.s
-
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/blinky.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/blinky.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/blinky.c
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/blinky.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/I2C_VL53L0X.dir/Core/Src/blinky.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/I2C_VL53L0X.dir/Core/Src/blinky.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Core/Src/blinky.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Core/Src/blinky.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Core/Src/blinky.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/blinky.c
 
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/blinky.c.i: cmake_force
@@ -97,10 +83,38 @@ CMakeFiles/I2C_VL53L0X.dir/Core/Src/blinky.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/I2C_VL53L0X.dir/Core/Src/blinky.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/blinky.c -o CMakeFiles/I2C_VL53L0X.dir/Core/Src/blinky.c.s
 
+CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
+CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/i2c.c
+CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/i2c.c
+
+CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/i2c.c > CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.i
+
+CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/i2c.c -o CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.s
+
+CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
+CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/main.c
+CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/main.c
+
+CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/main.c > CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.i
+
+CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/main.c -o CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.s
+
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_it.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/stm32f4xx_it.c
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_it.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_it.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_it.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/stm32f4xx_it.c
 
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_hal_msp.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_hal_msp.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_hal_msp.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/stm32f4xx_hal_msp.c
 
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -240,7 +254,7 @@ CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -254,7 +268,7 @@ CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -268,7 +282,7 @@ CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -282,7 +296,7 @@ CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -296,7 +310,7 @@ CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: c
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 
 CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -310,7 +324,7 @@ CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/system_stm32f4xx.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/system_stm32f4xx.c
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/I2C_VL53L0X.dir/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/I2C_VL53L0X.dir/Core/Src/system_stm32f4xx.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Core/Src/system_stm32f4xx.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Core/Src/system_stm32f4xx.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/system_stm32f4xx.c
 
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -324,7 +338,7 @@ CMakeFiles/I2C_VL53L0X.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/sysmem.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/sysmem.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/sysmem.c
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/sysmem.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/I2C_VL53L0X.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/I2C_VL53L0X.dir/Core/Src/sysmem.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Core/Src/sysmem.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Core/Src/sysmem.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Core/Src/sysmem.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/sysmem.c
 
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/sysmem.c.i: cmake_force
@@ -338,7 +352,7 @@ CMakeFiles/I2C_VL53L0X.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/syscalls.c.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/syscalls.c.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/syscalls.c
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/syscalls.c.obj: CMakeFiles/I2C_VL53L0X.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/I2C_VL53L0X.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/I2C_VL53L0X.dir/Core/Src/syscalls.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_VL53L0X.dir/Core/Src/syscalls.c.obj -MF CMakeFiles/I2C_VL53L0X.dir/Core/Src/syscalls.c.obj.d -o CMakeFiles/I2C_VL53L0X.dir/Core/Src/syscalls.c.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/Core/Src/syscalls.c
 
 CMakeFiles/I2C_VL53L0X.dir/Core/Src/syscalls.c.i: cmake_force
@@ -351,7 +365,7 @@ CMakeFiles/I2C_VL53L0X.dir/Core/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/I2C_VL53L0X.dir/startup_stm32f411xe.s.obj: CMakeFiles/I2C_VL53L0X.dir/flags.make
 CMakeFiles/I2C_VL53L0X.dir/startup_stm32f411xe.s.obj: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/startup_stm32f411xe.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building ASM object CMakeFiles/I2C_VL53L0X.dir/startup_stm32f411xe.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object CMakeFiles/I2C_VL53L0X.dir/startup_stm32f411xe.s.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/I2C_VL53L0X.dir/startup_stm32f411xe.s.obj -c /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/startup_stm32f411xe.s
 
 CMakeFiles/I2C_VL53L0X.dir/startup_stm32f411xe.s.i: cmake_force
@@ -364,8 +378,9 @@ CMakeFiles/I2C_VL53L0X.dir/startup_stm32f411xe.s.s: cmake_force
 
 # Object files for target I2C_VL53L0X
 I2C_VL53L0X_OBJECTS = \
-"CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj" \
 "CMakeFiles/I2C_VL53L0X.dir/Core/Src/blinky.c.obj" \
+"CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.obj" \
+"CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj" \
 "CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_it.c.obj" \
 "CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_hal_msp.c.obj" \
 "CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" \
@@ -389,8 +404,9 @@ I2C_VL53L0X_OBJECTS = \
 # External object files for target I2C_VL53L0X
 I2C_VL53L0X_EXTERNAL_OBJECTS =
 
-I2C_VL53L0X.elf: CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj
 I2C_VL53L0X.elf: CMakeFiles/I2C_VL53L0X.dir/Core/Src/blinky.c.obj
+I2C_VL53L0X.elf: CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.obj
+I2C_VL53L0X.elf: CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj
 I2C_VL53L0X.elf: CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_it.c.obj
 I2C_VL53L0X.elf: CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_hal_msp.c.obj
 I2C_VL53L0X.elf: CMakeFiles/I2C_VL53L0X.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
@@ -412,7 +428,7 @@ I2C_VL53L0X.elf: CMakeFiles/I2C_VL53L0X.dir/Core/Src/syscalls.c.obj
 I2C_VL53L0X.elf: CMakeFiles/I2C_VL53L0X.dir/startup_stm32f411xe.s.obj
 I2C_VL53L0X.elf: CMakeFiles/I2C_VL53L0X.dir/build.make
 I2C_VL53L0X.elf: CMakeFiles/I2C_VL53L0X.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C executable I2C_VL53L0X.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking C executable I2C_VL53L0X.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/I2C_VL53L0X.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

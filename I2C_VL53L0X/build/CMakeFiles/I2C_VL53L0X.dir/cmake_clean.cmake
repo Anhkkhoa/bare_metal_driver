@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/I2C_VL53L0X.dir/Core/Src/blinky.c.obj"
   "CMakeFiles/I2C_VL53L0X.dir/Core/Src/blinky.c.obj.d"
+  "CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.obj"
+  "CMakeFiles/I2C_VL53L0X.dir/Core/Src/i2c.c.obj.d"
   "CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj"
   "CMakeFiles/I2C_VL53L0X.dir/Core/Src/main.c.obj.d"
   "CMakeFiles/I2C_VL53L0X.dir/Core/Src/stm32f4xx_hal_msp.c.obj"

@@ -19,7 +19,12 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "stm32f4xx.h" //CMSIS File for Direct Register Access
+
+//Test Header
 #include "blinky.h"
+
+//Peripheral Header
+#include "i2c.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -89,8 +94,12 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   BlinkyPeripheral();
+  I2CPeripheral();
   /* USER CODE BEGIN 2 */
-
+  
+  
+  //Read from Register (bring this to function)
+ 
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -98,19 +107,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    GPIOA-> BSRR = (1 << 1);
-    for (int x = 0; x < 0xFF; x++)
-    {
-      for (int y = 0; y < 0xFF; y++) {
-      }
-    }
-
-    GPIOA-> BSRR = (1 << 17);
-    for (int x = 0; x < 0xFF; x++)
-    {
-      for (int y = 0; y < 0xFF; y++) {
-      }
-    }
+    
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
