@@ -1,4 +1,4 @@
-# Install script for directory: /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx
+# Install script for directory: /home/khoa-a-nguyen/Documents/ENGR/DRIVER/bare_metal_driver/I2C_VL53L0X/cmake/stm32cubemx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

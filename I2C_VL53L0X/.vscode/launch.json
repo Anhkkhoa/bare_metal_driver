@@ -16,7 +16,7 @@
             //User Config Setting
             "servertype": "openocd",
             "device": "STM32F411",
-            "gdbPath": "/usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gdb",
+            "gdbPath": "/usr/bin/arm-none-eabi-gdb",
 
             //Config Files
             "svdFile": "${workspaceFolder}/mcu_support/f4xx/STM32F411.svd", // ARM Keil STM32 Family Pack

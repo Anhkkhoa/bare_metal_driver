@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X
+CMAKE_SOURCE_DIR = /home/khoa-a-nguyen/Documents/ENGR/DRIVER/bare_metal_driver/I2C_VL53L0X
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build
+CMAKE_BINARY_DIR = /home/khoa-a-nguyen/Documents/ENGR/DRIVER/bare_metal_driver/I2C_VL53L0X/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -98,14 +98,14 @@ cmake/stm32cubemx/clean:
 CMakeFiles/I2C_VL53L0X.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/I2C_VL53L0X.dir/build.make CMakeFiles/I2C_VL53L0X.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/I2C_VL53L0X.dir/build.make CMakeFiles/I2C_VL53L0X.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Built target I2C_VL53L0X"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/khoa-a-nguyen/Documents/ENGR/DRIVER/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Built target I2C_VL53L0X"
 .PHONY : CMakeFiles/I2C_VL53L0X.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/I2C_VL53L0X.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khoa-a-nguyen/Documents/ENGR/DRIVER/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/I2C_VL53L0X.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/khoa-a-nguyen/Documents/ENGR_Projects/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khoa-a-nguyen/Documents/ENGR/DRIVER/bare_metal_driver/I2C_VL53L0X/build/CMakeFiles 0
 .PHONY : CMakeFiles/I2C_VL53L0X.dir/rule
 
 # Convenience name for target.

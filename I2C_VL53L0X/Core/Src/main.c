@@ -72,7 +72,7 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-  const define LOX_ADDRESS = Ob0101001; //7 bit address
+  const uint8_t LOX_ADDRESS = 0x29; //7 bit address
 
   /* USER CODE END 1 */
 

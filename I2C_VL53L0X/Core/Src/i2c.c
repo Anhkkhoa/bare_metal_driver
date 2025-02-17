@@ -21,9 +21,7 @@ void I2CPeripheral(void)
     I2C1->CR1 = I2C_CR1_SWRST;
     I2C1->CR1 &= ~I2C_CR1_SWRST; //Reset then turn off reset I2C software
 
-    
-
-    //I2C1->CCR |= (0 << 15); //Standard Mode Spd (If clock run match)
+    I2C1->CCR |= (0 << 15); //Standard Mode Spd (If clock run match)
     I2C1->CCR = 0x50; //T_High and T_Low are equal so be 5us, and then with the previous peripheral clock is 16MHz => T_PCLK1 is 62.5ns, 5us/62.5ns = 80
     I2C1->TRISE = 0x10;
 
@@ -42,11 +40,20 @@ void I2CStop(void)
     I2C1->CR1 |= I2C_CR1_STOP;
 }
 
-void I2CWrite(uint8_t txdata) //Sending Register and Address before dasta byte
+void I2CWriteChipAddr(uint8_t txdata) //Sending Register and Address before dasta byte
 {
-    while (!(I2C1->SR1 & I2C_SR1_TXE));
+    
     I2C1->DR = txdata; //Sending Byte that we want to send
-    while (!(I2C1->SR1 & I2C_SR1_BTF));
+    while (!(I2C1->SR1 & I2C_SR1_ADDR)); //Checking do address sent
+    uint16_t reg = I2C1->SR1 | I2C1->SR2; //Setting to arbitray to clear status register
+    while (!(I2C1->SR1 & I2C_SR1_TXE));
+    //Check do DR is empty after send
+}
+
+void I2CWriteRegAddr(uint8_t txdata) //Sending Register and Address before dasta byte
+{
+    I2C1->DR = txdata; //Sending Byte that we want to send
+    while (!(I2C1->SR1 & I2C_SR1_BTF));//Check do DR is empty after send
 }
 
 uint8_t I2CRead(uint8_t ack)
@@ -78,10 +85,10 @@ uint8_t I2CReadRegister(uint8_t reg, uint8_t address)
 {
     uint8_t rxdata;
     I2CStart();
-    I2CWrite(address << 1); //Write Mode
-    I2CWrite(reg);
+    I2CWriteChipAddr(address << 1); //Write Mode
+    I2CWriteRegAddr(reg);
     I2CStart();
-    I2CWrite((address<< 1)| 1);
+    I2CWriteChipAddr((address<< 1)| 1);
     rxdata = I2CRead(0); //NACK sending data to signify completed sending the data
     I2CStop();
     return rxdata;
